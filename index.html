@@ -1,9 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lais Silva - Psicóloga (Em Breve)</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte limpa */
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8; /* Fundo suave */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Garante que o conteúdo fique centralizado na tela */
+            text-align: center;
+        }
 
+        /* Container principal */
+        .container {
+            background-color: #ffffff;
+            padding: 40px 30px;
+            border-radius: 10px; /* Cantos arredondados */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            max-width: 450px; /* Largura máxima */
+            width: 90%; /* Responsivo */
+        }
+
+        /* Estilo da Foto */
+        .profile-pic {
+            width: 150px; /* Tamanho da foto */
+            height: 150px;
+            border-radius: 50%; /* Foto circular */
+            object-fit: cover; /* Garante que a foto cubra o espaço sem distorcer */
+            margin-bottom: 20px;
+            border: 4px solid #e7e7e7; /* Borda sutil */
+        }
+
+        /* Nome */
+        h1 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            color: #2c3e50; /* Cor mais escura para o nome */
+            font-size: 2em;
+        }
+
+        /* Profissão */
+        .profession {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        /* Email */
+        .email a {
+            color: #3498db; /* Azul para o link */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .email a:hover {
+            text-decoration: underline; /* Sublinhado ao passar o mouse */
+        }
+
+        /* Mensagem "Em Construção" */
+        .status {
+            margin-top: 30px;
+            font-style: italic;
+            color: #777;
+            border-top: 1px solid #eee; /* Linha separadora */
+            padding-top: 20px;
+        }
+
+    </style>
+</head>
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-</body>
 
+    <div class="container">
+        <!-- Substitua 'lais_foto.jpg' pelo nome exato do arquivo da sua foto -->
+        <img src="lais_foto.jpeg" alt="Foto de Lais Silva" class="profile-pic">
+
+        <h1>Lais Silva</h1>
+        <p class="profession">Psicóloga</p>
+
+        <p class="email">
+            Entre em contato: <a href="mailto:laispsiclinica@gmail.com">laispsiclinica@gmail.com</a>
+        </p>
+
+        <p class="status">
+            Meu novo site está sendo preparado com carinho.<br> Volte em breve para novidades!
+        </p>
+    </div>
+
+</body>
 </html>
